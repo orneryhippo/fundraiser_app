@@ -1,1 +1,1 @@
-web: gunicorn fundraiser_app:apps --preload
+web: gunicorn fundraiser_app --preload

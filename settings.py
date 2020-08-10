@@ -15,3 +15,7 @@ PAYTRACE_NEW_ACCESS_TOKEN_HEADERS = {
     'HTTP Protocol': 'HTTP/1.1',
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
 }
+
+
+import django_heroku
+django_heroku.settings(locals())
